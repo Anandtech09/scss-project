@@ -378,3 +378,7 @@ list{
 .content-h3{
     text-align: center;
 }
+
+[class^="detail-box"] > p {
+    text-align: left;
+}
