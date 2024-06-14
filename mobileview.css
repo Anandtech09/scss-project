@@ -1,0 +1,268 @@
+@media only screen and (max-width: 768px) {
+    .nav > ul,ol{
+        display: none;
+        padding: 18px 32px;
+        gap: 40px;
+        height: 72px;
+    }
+    .nav > list{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10%;
+        justify-content: flex-end;
+    }
+    body{
+        padding: 0px;
+    }
+    
+    .section-container, .intermediate{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sku-button{
+        width: 100%;
+    }
+
+    .section-container{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .detail{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .flex-right-cont{
+        margin-left: 10%;
+
+    }
+
+    .flex-left-cont br{
+        text-align: center;
+        display: none;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contents{
+        display: flex;
+        flex-direction: column;
+        width: 420%;
+        margin-left: 15%;
+    }
+
+    list{
+        display: none;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+    .div-column{
+        border-bottom: 0.5px solid #D0D5DD;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .intial-top-content{
+        padding-bottom:5%;
+        padding-top: 3%;
+    }
+
+    .arrow-down{
+        visibility:visible;
+        padding-top: 3%;
+    }
+
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24.5px;
+        text-align: left;
+
+    }
+
+    .content-icon{
+        display: flex;
+        flex-direction: row;
+        width: 36px;
+        justify-content: flex-end;
+        gap: 12px;
+        
+    }
+
+    .det-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-frame{
+        margin-left: 4%;
+    }
+    
+    .button-box{
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    
+    .nav{
+        justify-content: space-between;
+        padding: 16px 0px 0px 0px;
+    }
+
+    .nav > list{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10%;
+        justify-content: flex-end;
+    }
+
+    .sku-img{
+        text-align: left;
+        gap: 32px;
+    }
+
+    .nav > img{
+        width: Hug (157px)px;
+        height: Hug (32px)px;
+        gap: 10px;
+        opacity: 0px;
+
+    }
+
+    .sku-p,.sku-button{
+        margin-right: 20%;
+    }
+
+    .sales_img > img{
+        width: 343px;
+        height: 343px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    .sales_img{
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 30%;
+    }
+
+    .sku-h1{
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+
+    }
+
+    .img-vector{
+        width: 300px;
+        height: 20px;
+        border: 2px 0px 0px 0px;
+        justify-content: center;
+    }
+
+    .section-container > p,button{
+        justify-content: center;
+    }
+
+    .detail-img{
+        width: 400px;
+        height: 200px;
+    }
+
+    .sku-p br{
+        display: none;
+    }
+
+    .sku-button{
+        width: 80%;
+    }
+
+    .about{
+        margin-top: 20%;
+    }
+
+    .flex-right-cont > img{
+        width: 343px;
+        height: 343px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    .detail-content{
+        margin-top: 50%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .det-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .button-box{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0%;
+        width: 100%;
+        height: Hug (48px)px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
+        border-radius: 8px;
+        opacity: 0px;
+
+    }
+
+    .contents{
+        width: 100%;
+        margin-left: 15%;
+        padding: 6%;
+        width: 200%;
+    }
+
+    .footer-frame{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-icon{
+        margin-left: 45%;
+    }
+
+    .flex-right-cont{
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+
+    .intermediate{
+        padding: 0%;
+        gap: 0%;
+    }
+
+    .detail-img > img {
+        width: 343px;
+        height: 343px;
+        margin-left: 7%;
+    }
+}
