@@ -239,7 +239,7 @@ h4{
 }
 
 .flex-left-cont > h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -249,7 +249,7 @@ h4{
 }
 
 .flex-left-cont > p{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -346,7 +346,7 @@ label{
 
 .intial-top-content{
     color: #475467;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -360,8 +360,21 @@ list{
     text-align: left;
     padding-top: 8%;
     width:100px;
+    font-family: 'Poppins';
 }
 
 .arrow-down{
     visibility: hidden;
+}
+
+.free-content > h1{
+    font-family: 'Poppins';
+}
+
+.box-content >h3{
+    font-family: 'Poppins';
+}
+
+.content-h3{
+    text-align: center;
 }
