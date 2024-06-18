@@ -9,12 +9,17 @@
         gap: 40px;
         height: 72px;
     }
-    .nav > list{
+    .nav > .menu{
         display: flex;
         flex-direction: row;
-        padding-bottom: 10%;
+        align-items: center;
         justify-content: flex-end;
     }
+
+    list{
+        padding-top: 0%;
+    }
+
     body{
         padding: 0px;
     }
@@ -57,8 +62,7 @@
     }
 
     .footer-content{
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
 
     .contents{
@@ -66,7 +70,7 @@
         flex-direction: column;
     }
 
-    list{
+    .list-cont{
         display: none;
         font-family: Poppins;
         font-size: 16px;
@@ -90,7 +94,7 @@
 
     .arrow-down{
         visibility:visible;
-        padding-top: 3%;
+        padding-top: 2%;
     }
 
     .det-box{
@@ -114,14 +118,164 @@
         padding-left: 2%;
     }
 
+    .menu {
+        display: block;
+    }
+
+    .list-menu {
+        display: none;
+    }
+
+    .btn-ham {
+        display: none;
+    }
+
+    .ham-icon {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .cross-btn {
+        display: none;
+    }
+
+    .btn-ham:checked ~ .list-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0%;
+        width: 90%;
+        top: 80px;
+        left: 20px;
+        padding: 18px 32px 18px 32px;
+        gap: 10px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color:#475467;
+        background-color: #FFFFFF;
+    }
+
+    .list-menu > .list:hover{
+        color: #107569;
+        background-color:#F0FDF9;
+        border-radius: 8px;
+    }
+
+    .list-menu > .list{
+        padding-left: 38px;
+    }
+
+    .cross-btn:checked~.list-menu {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    .btn-ham:checked~.ham-icon {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    .btn-ham:checked~.cross-btn {
+        display: block;
+        transition: all 0.5s;
+    }
+
+    .alternate_listing_menu_parent{
+        display: flex;
+    }
+
+    .alternate_listing_menu_parent{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 48px 32px;
+        max-width: 100%;
+        gap: 48px;
+    }
+    .alternate_listing_menu{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .alternate_listing_menu_item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-bottom: 0.5px solid black;
+    }
+    .alternate_listing_menu_item p{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        color: #475467;
+    }
+    .alternate_listing_menu_item_title{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+    .alternate_listing_menu_item ul{
+        list-style-type: none;
+        padding-left:5px;
+    }
+    .alternate_listing_menu_item li{
+        padding:12px 16px ;
+        /* background-color: gray; */
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+    .alternate_listing_menu_item li:hover{
+        background-color:#F0FDF9;
+    }
+
+
+    #alternate_listing_company_content{
+        display: none;
+    }
+    #alternate_listing_company:hover #alternate_listing_company_content{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    #alternate_listing_sales_content{
+        display: none;
+    }
+    #alternate_listing_sales:hover #alternate_listing_sales_content{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    #alternate_listing_resources_content{
+        display: none;
+    }
+    #alternate_listing_resources:hover #alternate_listing_resources_content{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    #alternate_listing_support_content{
+        display: none;
+    }
+    #alternate_listing_support:hover #alternate_listing_support_content{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 395px) {
     
     .nav{
-        justify-content: space-between;
+        justify-content:space-between;
         padding: 15px;
-        width: 375px;
+        width: 320px;
         height: 64px;
     }
 
@@ -135,10 +289,10 @@
         height: 32px;
     }
 
-    .nav > list{
+    .nav > .menu{
         display: flex;
         flex-direction: row;
-        padding-bottom: 10%;
+        padding-bottom: 0%;
         justify-content: center;
     }
 

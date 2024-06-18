@@ -8,6 +8,11 @@
     height: 72px;
 }
 
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
 .nav > list{
     display: none;
 }
@@ -299,6 +304,10 @@ label{
     border: none;
 }
 
+.button-box:hover{
+    background-color: #0E9384;
+}
+
 .total-content{
     width: Fill (1,280px)px;
     height: Hug (586px)px;
@@ -384,4 +393,12 @@ list{
     width: 560px;
     height: 575px;
     padding-left: 1%;
+}
+
+.menu{
+    display: none;
+}
+
+.alternate_listing_menu_parent{
+    display: none;
 }
