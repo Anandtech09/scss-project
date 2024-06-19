@@ -331,6 +331,7 @@ label{
     height: Hug (539px)px;
     display: flex;
     gap: 64px;
+    padding-top: 64px;
     border: 1px 0px 0px 0px;
 }
 
