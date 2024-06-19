@@ -399,6 +399,9 @@ list{
     display: none;
 }
 
-.alternate_listing_menu_parent{
+#accordion {
     display: none;
+    flex-direction: column;
+    padding: 48px,32px,0px,32px;
 }
+
