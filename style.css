@@ -31,6 +31,15 @@ body{
 
 }
 
+li.sign{
+    width: Hug (82px)px;
+    height: Hug (36px)px;
+    padding: 8px 14px 8px 14px;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #15B79E;
+    color:#FFFFFF;
+}
 ul{ 
     display: flex;
     align-self: stretch;
@@ -49,6 +58,7 @@ li{
     line-height: 24px;
     text-align: left;
     color: #475467;
+    cursor: pointer;
 }
 
 ol{
@@ -57,13 +67,6 @@ ol{
     justify-content: space-between;
 }
 
-li.sign{
-    background-color: #15B79E;
-    padding: 5%;
-    color: white;
-    margin-left: 3%;
-    border-radius: 10%;
-}
 
 li.login{
     color: black;
