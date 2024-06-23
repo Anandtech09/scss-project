@@ -3,293 +3,323 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobileview.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <title>Sales Layer Scss</title>
+        <link rel="stylesheet" href="scss/style.css">
+        <link rel="stylesheet" href="scss/ipad_style.css">
+        <link rel="stylesheet" href="scss/smartphone_style.css">
 </head>
 <body>
-    <div class="container">
-    <header>
-        <nav>
-            <div class="nav">
-                <img src="image/sales layer.png" alt="">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Why Sales Layer</li>
-                    <li>Pricing</li>
-                </ul>
-                <ol>
-                    <li class="login">Login</li>
-                    <li class="sign">Signup</li>
-                </ol>
-                <div class="menu">
-                        <input type="checkbox" class="btn-ham" id="btn-ham">
-                        <label for="btn-ham" class="ham-icon">
-                            <img src="image/sort.png" alt="menu">
-                        </label>
-                        <label for="btn-ham" class="cross-btn">
-                            <img src="image/cross.png" alt="close">
-                        </label>
-                        <div class="list-menu">
-                            <span class="list">Home</span>
-                            <span class="list">About</span>
-                            <span class="list">Why Sales Layer</span>
-                            <span class="list">Pricing</span>
-                        </div>
+<header>
+    <nav>
+    <div class="navigation-bar">
+        <div class="nav-bar">
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="images/main-logo.svg" alt="main-logo"><span>Sales Layer</span>
+                </div>
+                <div class="nav-contents">
+                    <span>Home</span>
+                    <span>About</span>
+                    <span>Why Sales Layer</span>
+                    <span>Pricing</span>
+                </div>
+            </div>
+            <div class="nav-right">
+                <button class="log-in-btn">Log in</button><button class="sign-up-btn">Sign up</button>
+
+                <div class="hamburger">
+                    <input type="checkbox" class="ham-btn" id="ham-btn">
+                    <label for="ham-btn" class="ham-icon"><img src="images/ham.svg" alt="menu"></label>
+                    <label for="ham-btn" class="cross-icon"><img src="images/cross.svg" alt="close"></label>
+                    <div class="list-menu">
+                        <span class="list">Home</span>
+                        <span class="list">About</span>
+                        <span class="list">Why Sales Layer</span>
+                        <span class="list">Pricing</span>
                     </div>
-            </div> 
-        </nav>
-    </header>
-    
-    <main>
-        <section>
-            <div class="section-container">
-                <div class="sku_img">
-                <h1 class="sku-h1">SKU Management</h1>
-                <img class="img-vector" src="./image/Vector 1.png">
-                <p class="sku-p">
-                    Centralize and manage millions of SKUs with Sales Layer   <br> 
-                     PIM to improve the efficiency of your business.
-                </p>
-                <button class="sku-button">Try it for free</button>
-                </div>
-            <div class="sales_img">
-                <img src="./image/basic-image.png" alt="">
-            </div>
-        </div>
-        </section>
-        <section>
-            <div class="about">
-            Who we are
-            </div>
-            <h2>About US</h2>
-            <h4>Dedicated to Revolutionizing Inventory Management</h4>
-        </section>
-        <section>
-            <div class="detail">
-                <div class="detail-img">
-                    <img src="./image/Website Creator.png" alt="">
-                </div>
-                <div class="detail-content">
-                    <div class="detail-box-1">
-                        <div class="box">
-                            <img src="./image/icon.png" alt="">
-                        </div>
-                        <h1 class="detail-h1">Our Mission</h1>
-                        <p class="detail-p">We aim to provide top-notch SKU
-                             management solutions that
-                             streamline inventory processes
-                              and enhance productivity.</p>
-                </div>
-                <div class="detail-box-2">
-                        <div class="box">
-                            <img src="./image/icon.png" alt="">
-                        </div>
-                        <h1 class="detail-h1">Our Vision</h1>
-                        <p class="detail-p">We aim to provide top-notch SKU
-                             management solutions that
-                             streamline inventory processes
-                              and enhance productivity.</p>
-                </div>
-                    
-                <div class="detail-box-3">
-                            <div class="box">
-                                <img src="./image/icon.png" alt="">
-                            </div>
-                            <h1 class="detail-h1">Our Values</h1>
-                            <p class="detail-p">We aim to provide top-notch SKU
-                                 management solutions that 
-                                 streamline inventory processes
-                                  and enhance productivity.</p>
-                </div>
-                        
-                <div class="detail-box-4">
-                                <div class="box">
-                                    <img src="./image/icon.png" alt="">
-                                </div>
-                                <h1 class="detail-h1">Our Commitment</h1>
-                                <p class="detail-p">We aim to provide top-notch SKU
-                                     management solutions that
-                                     streamline inventory processes
-                                      and enhance productivity.
-                                </p>
                 </div>
             </div>
         </div>
-        </section>
     </div>
-        <section  class="background-img">
-            <div class="sku">
-                <div class="head-main">
-                    <div class="details">
-                        <p class="detail-para">Features</p>
-                        <h1 class="detail-h1tag">Optimize Your Inventory with Smart SKU Management</h1>
-                        <p class="detail-h5tag">Efficiently Track, Manage, and Optimize Your Inventory for Maximum Productivity</p>
-                    </div>
-                </div>
-                <div class="det-box">
-                    <div class="box-content">
-                        <img src="./image/Frame 31.png" class="content-p" alt="">
-                        <h3 class="content-h3">Comprehensive SKU Tracking</h3>
-                        <p class="content-p">Keep a detailed record of all your
-                             products to ensure accurate tracking and 
-                              inventory management.</p>
-                        
-                    </div>
-                    <div class="box-content">
-                        <img src="./image/Frame 31.png" class="content-p" alt="">
-                        <h3 class="content-h3">Real-Time Inventory Updates</h3>
-                        <p class="content-p">Receive real-time updates on inventory levels, ensuring you never run out of stock or overstock items.</p>
-                        
-                    </div>
-                    <div class="box-content">
-                        <img src="./image/Frame 31.png" class="content-p" alt="">
-                        <h3 class="content-h3">Automated Stock Replenishment</h3>
-                        <p class="content-p">Set thresholds and automate reorder processes to maintain optimal inventory levels without manual intervention.</p>
-                        
-                    </div>
-                    <div class="box-content">
-                        <img src="./image/Frame 31.png" class="content-p" alt="">
-                        <h3 class="content-h3">Advanced Reporting & Analytics</h3>
-                        <p class="content-p">Access comprehensive reports and analytic trends and optimize your stock management strategy.</p>
-                        
-                    </div>
-                    <div class="box-content">
-                        <img src="./image/Frame 31.png" class="content-p" alt="">
-                        <h3 class="content-h3">Multi-Channel Integration</h3>
-                        <p class="content-p">Integrate your SKU management system withchannels to ensure consistent inventory levels across all platforms.</p>
-                        
-                    </div>
-                    <div class="box-content">
-                        <img src="./image/Frame 31.png" class="content-p" alt="">
-                        <h3 class="content-h3">User-Friendly Interface</h3>
-                        <p class="content-p">Enjoy a clean and intuitive interface that simplifies SKU management and makes it accessible for users of all skill levels.</p>
-                        
-                    </div>
-                </div>
+    </nav>
+</header>
+
+<main>
+    <section>
+    <div class="body-container">
+        <div class="body-content">
+            <div class="sku-management">
+                <span>SKU Management</span>
+                <img src="images/arrow-head.svg" alt="body-arrow">
+                <p>Centralize and manage millions of SKUs with Sales Layer PIM to improve the efficiency of your business.</p>
             </div>
-        </section>
-        <div class="container">
-        <section>
-            <div class="intermediate">
-                <div class="flex-left-cont">
-                    <h1>Analytic Tools for SKU <br> Management</h1>
-                    <p>With<label> product analytic tools</label>, you can also monitor the success of your products across your selling platforms and identify any trends to capitalize on. PIM allows you to input and launch new product data in no time at all.</p>
-                </div>
-                <div class="flex-right-cont">
-                    <img src="image/Developer activity-bro 1.png" alt="">
-                </div>
+            <button class="body-btn">Try it for free</button>
+        </div>
+        <div class="first-img">
+            <img src="images/Version control-bro.svg" alt="bro">
+        </div>
+    </div>
+    </section>
+
+    <section>
+    <div class="about-container">
+        <div class="about-container-head">
+            <div class="about-top">
+                <span class="about-heading">Who we are</span>
+                <span class="about-para">About US</span>
             </div>
-        </section>
-        <section>
-            <div class="total-content">
-            <div class="free-content">
-                <h1>Get started for free now</h1>
-                <p>Transform your data into product intelligence</p>
-                <button class="button-box">Try it for free</button>
+            <span>Dedicated to Revolutionizing Inventory Management</span>
+        </div>
+        <div class="about-body">
+            <div class="about-body-img">
+                <img src="images/Website Creator-bro.svg" alt="bro">
+            </div>
+            <div class="about-card-section">
+                <div class="about-card-part">
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <img src="images/light.svg" alt="flash-icon">
+                        </div>
+                        <div class="about-card-body-text">
+                            <span>Our Mission</span>
+                            <p>We aim to provide top-notch SKU management solutions that streamline inventory processes and enhance productivity.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <img src="images/light.svg" alt="flash-icon">
+                        </div>
+                        <div class="about-card-body-text">
+                            <span>Our Vision</span>
+                            <p>We envision a world where inventory management is effortless, efficient, and accessible to businesses of all sizes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card-part">
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <img src="images/light.svg" alt="flash-icon">
+                        </div>
+                        <div class="about-card-body-text">
+                            <span>Our Values</span>
+                            <p>Our core values of innovation, customer focus, and integrity guide everything we do, ensuring exceptional service.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <img src="images/light.svg" alt="flash-icon">
+                        </div>
+                        <div class="about-card-body-text">
+                            <span>Our Commitment</span>
+                            <p>We are dedicated to helping our clients achieve their goals by providing reliable, user-friendly, and scalable solutions.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </section><hr>
-        <section class="footer">
-            <div class="footer-content">
-                <div class="img-ul">
-                    <img src="image/sales layer.png" alt="">
-                </div>
-            <div class="contents">
-                <div class="div-column">
-                    <div class="intial-top-content">
-                Company </div> <div class="accordion"><list class="list-cont">Meet us </list>
-                <list class="list-cont"> Jobs </list><list class="list-cont">blog </list><list class="list-cont">Talk to us</list>
-            </div>
-                <div class="arrow-down"><input type="checkbox" id="toggle-company" class="toggle-checkbox">
-                </div>                   
-                </div>
-                <div class="div-column">
-                    <div class="intial-top-content">
-                Sales Layer </div><div class="accordion"><list class="list-cont">Dashboard </list><list class="list-cont">Multi-channel </list><list class="list-cont">Analytics </list><list class="list-cont">Pricing </list><list class="list-cont">Our Services </list><list class="list-cont">Connect</list>
-                    </div>
-                <div class="arrow-down">
-                    <input type="checkbox" id="toggle-company" class="toggle-checkbox">
-                </div>                     
-                </div>
-                <div class="div-column">
-                    <div class="intial-top-content">
-                    Resources </div><div class="accordion"><list class="list-cont">Case  Studies</list> <list class="list-cont">E-books </list><list class="list-cont">Webinars </list><list class="list-cont">Assets</list>
-                        </div>
-                    <div class="arrow-down">
-                        <input type="checkbox" id="toggle-company" class="toggle-checkbox">
-                    </div>                         
-                </div>
-                <div class="div-column">
-                    <div class="intial-top-content">
-                    Support </div><div class="accordion"><list class="list-cont">Help Center</list> <list class="list-cont">Legal notice </list><list class="list-cont">Privacy policy </list><list class="list-cont">Cookies policy</list><list class="list-cont">Cookies settings </list><list class="list-cont">Sales terms</list>
-                        </div>
-                    <div class="arrow-down">
-                        <input type="checkbox" id="toggle-company" class="toggle-checkbox"> 
-                    </div>                        
-                </div>
-            </div>
-            </div>
-        </section>
-        <section >
-            <div id="accordion">
-                    <div class="img-ipad">
-                        <img src="image/sales layer.png" alt="">
-                    </div>
-                <label for="section1" class="accordion-label">Company<span>&#x3e;</span></label>
-                <input type="radio" name="accordion" id="section1">
-                <div class="accordion-content">
-                    <p>Meet us</p>
-                    <p>Jobs</p>
-                    <p>Blog</p>
-                    <p>Talk to us</p>
-                </div>
-                <label for="section2" class="accordion-label">Sales Layer<span>&#x3e;</span></label>
-                <input type="radio" name="accordion" id="section2">
-                <div class="accordion-content">
-                    <p>Dashboard</p>
-                    <p>Multi-Channel</p>
-                    <p>Analytics</p>
-                    <p>Pricing</p>
-                    <p>Our services</p>
-                    <p>Connect</p>
-                </div>
-                <label for="section3" class="accordion-label">Resources<span>&#x3e;</span></label>
-                <input type="radio" name="accordion" id="section3">
-                <div class="accordion-content">
-                    <p>Case Studies</p>
-                    <p>E-books</p>
-                    <p>Webinars</p>
-                    <p>Assets</p>
-                </div>
-                <label for="section4" class="accordion-label" style="border: none;">Support<span>&#x3e;</span></label>
-                <input type="radio" name="accordion" id="section4">
-                <div class="accordion-content">
-                    <p>Help Center</p>
-                    <p>Legal notice</p>
-                    <p>Privacy policy</p>
-                    <p>Cookies policy</p>
-                    <p>Cookies settings</p>
-                    <p>Sales terms</p>
-                </div>
-            </div>
-        </section>
-        
-            <div class="frame">
-                    <div class="copyright">
-                        &copy; 2024 Sales Layer Rights Reserved.
-                    </div>
-                    <div class="content-icon">
-                        <img src="./image/facebook.png" alt="" class="icon">
-                        <img src="./image/x.png" alt="" class="icon">
-                        <img src="./image/in.png" alt="" class="icon">
-                        <img src="./image/insta.png" alt="" class="icon">
-                        <span></span>
-                    </div>
-            </div>
-    </main>
     </div>
+    </section>
+
+    <section>
+    <div class="features-container">
+        <div class="features-body">
+            <div class="features-head">
+                <div class="features-head-top">
+                    <span class="features-heading">Features</span>
+                    <span class="features-para"> Optimize Your Inventory with Smart SKU Management</span>
+                </div>
+                <span class="features-head-3">Efficiently Track, Manage, and Optimize Your Inventory for Maximum Productivity</span>
+            </div>
+
+            <div class="features-card-section">
+                <div class="features-card">
+                    <div class="features-card-head">
+                        <img src="images/features-icon.svg" alt="features-icon">
+                    </div>
+                    <div class="features-card-body">
+                        <span class="features-card-body-head">Comprehensive SKU Tracking</span>
+                        <span class="features-card-body-text">Keep a detailed record of all your products to ensure accurate tracking and inventory management.</span>
+                    </div>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-card-head">
+                        <img src="images/features-icon.svg" alt="features-icon">
+                    </div>
+                    <div class="features-card-body">
+                        <span class="features-card-body-head">Real-Time Inventory Updates </span>
+                        <span class="features-card-body-text">Receive real-time updates on inventory levels, ensuring you never run out of stock or overstock items.</span>
+                    </div>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-card-head">
+                        <img src="images/features-icon.svg" alt="features-icon">
+                    </div>
+                    <div class="features-card-body">
+                        <span class="features-card-body-head">Automated Stock Replenishment </span>
+                        <span class="features-card-body-text">Set thresholds and automate reorder processes to maintain optimal inventory levels without manual intervention.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-card-head">
+                        <img src="images/features-icon.svg" alt="features-icon">
+                    </div>
+                    <div class="features-card-body">
+                        <span class="features-card-body-head">Advanced Reporting & Analytics </span>
+                        <span class="features-card-body-text">Access comprehensive reports and analytic trends and optimize your stock management strategy.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-card-head">
+                        <img src="images/features-icon.svg" alt="features-icon">
+                    </div>
+                    <div class="features-card-body">
+                        <span class="features-card-body-head">Multi-Channel Integration </span>
+                        <span class="features-card-body-text">Integrate your SKU management system withchannels to ensure consistent inventory levels across all platforms.</span>
+                    </div>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-card-head">
+                        <img src="images/features-icon.svg" alt="features-icon">
+                    </div>
+                    <div class="features-card-body">
+                        <span class="features-card-body-head">User-Friendly Interface </span>
+                        <span class="features-card-body-text">Enjoy a clean and intuitive interface that simplifies SKU management and makes it accessible for users of all skill levels.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+    <div class="analytic_tool">
+        <div class="tool-body">
+            <span class="tool-heading">Analytic Tools for SKU Management</span>
+            <span class="tool-para">
+                With <span>product analytic tools</span>, you can also monitor the success of your products across your selling
+                platforms and identify any trends to capitalize on. PIM allows you to input and launch new product data in no time at all.
+            </span>
+        </div>
+        <div class="tool-img">
+            <img src="images/Developer activity-bro.svg" alt="Developer activity-bro">
+        </div>
+    </div>
+    </section>
+
+    <section>
+    <div class="get-free-container">
+        <div class="get-free-body">
+            <div class="get-free-body-text">
+                <div class="get-free-head">
+                    <span class="get-free-head-1">Get started for free now</span>
+                    <span class="get-free-head-2">Transform your data into product intelligence</span>
+                </div>
+                <button>Try it for free</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+    <div class="footer-container">
+        <div class="footer-upper">
+            <div class="footer-logo">
+                <img src="images/main-logo.svg" alt="sales-layer-logo">
+                <span>Sales Layer</span>
+            </div>
+
+            <div class="footer-body">
+                <div class="footer-body-content">
+                    <input type="radio" name="accordion" id="section1" class="accordion-btn">
+                    <label for="section1" class="footer-content-head">Company<img src="images/expand_more.svg"
+                            alt="expand_more"></label>
+                    <ul class="footer-content-list">
+                        <li>Meet us </li>
+                        <li>Jobs</li>
+                        <li>Blog</li>
+                        <li>Talk to us</li>
+                    </ul>
+                </div>
+
+                <div class="footer-body-content">
+                    <input type="radio" name="accordion" id="section2" class="accordion-btn">
+                    <label for="section2" class="footer-content-head">Sales Layer<img src="images/expand_more.svg"
+                            alt="expand_more"></label>
+                    <ul class="footer-content-list">
+                        <li>Dashboard</li>
+                        <li>Multi-channel</li>
+                        <li>Analytics</li>
+                        <li>Pricing</li>
+                        <li>Our services</li>
+                        <li>Connect</li>
+                    </ul>
+                </div>
+
+                <div class="footer-body-content">
+                    <input type="radio" name="accordion" id="section3" class="accordion-btn">
+                    <label for="section3" class="footer-content-head">Resources<img src="images/expand_more.svg"
+                            alt="expand_more"></label>
+                    <ul class="footer-content-list">
+                        <li>Case Studies</li>
+                        <li>E-books</li>
+                        <li>Webinars</li>
+                        <li>Assets</li>
+                    </ul>
+                </div>
+
+                <div class="footer-body-content">
+                    <input type="radio" name="accordion" id="section4" class="accordion-btn">
+                    <label for="section4" class="footer-content-head">Support<img src="images/expand_more.svg"
+                            alt="expand_more"></label>
+                    <ul class="footer-content-list">
+                        <li>Help Center</li>
+                        <li>Legal notice</li>
+                        <li>Privacy policy</li>
+                        <li>Cookies policy</li>
+                        <li>Cookies settings</li>
+                        <li>Sales terms</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer-lower">
+            <div class="footer-lower-container">
+                <div class="footer-lower-body">
+                    <span>&copy; 2024 Sales Layer Rights Reserved.</span>
+                </div>
+                <div class="footer-lower-icons">
+                    <div class="footer-icon">
+                        <img src="images/facebook.svg" alt="fb">
+                    </div>
+                    <div class="footer-icon">
+                        <img src="images/x.svg" alt="twitter">
+                    </div>
+                    <div class="footer-icon">
+                        <img src="images/linkedin.svg" alt="linkedin">
+                    </div>
+                    <div class="footer-icon">
+                        <img src="images/insta.svg" alt="instagram">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</main>
 </body>
 </html>
